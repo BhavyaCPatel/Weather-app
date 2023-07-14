@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: linear-gradient(to bottom right,black,grey);
+
+}
+.header{
+    margin: 3% 30%;
+    border-radius: 10px;
+    background: rgb(150,1,186);
+    background: linear-gradient(310deg, rgba(150,1,186,0.8913690476190477) 0%, rgba(12,142,187,1) 60%, rgba(0,255,170,1) 100%);
+    height: 500px;
+    width: 500px;
+    box-shadow: 5px 4px 15px rgb(0, 0, 0);
+}
+#city{
+    margin-left: 15%;
+    width: 60%;
+    height: 9%;
+    border: 0px;
+    border-radius: 50px;
+}
+#submit{
+    margin-left: 10px;
+    border: 0px;
+    border-radius: 50px;
+    background-color: white;
+}
+#weather{
+    margin-left: 30%;
+    height: 180px;
+    width: 200px;
+}
+#temp{
+    font-size: 50px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top: 30px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col p{
+    margin: 0px;
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#humidity,#wind{
+    font-size: 28px;
+    margin-top: -6px;
+}
